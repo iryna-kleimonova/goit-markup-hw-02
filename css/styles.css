@@ -12,7 +12,7 @@ ul {
   list-style-type: none;
 }
 
-.visually-hidden {
+/* .visually-hidden { 
   position: absolute;
   width: 1px;
   height: 1px;
@@ -24,6 +24,7 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+  */
 
 /* --------HEADER------ */
 .header {
@@ -94,6 +95,11 @@ ul {
   color: #fff;
   cursor: pointer;
   font-family: inherit;
+  background-color: #4d5ae5;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 /* --------FEATURES------ */
 .features {
@@ -127,10 +133,12 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
 }
 .team-item {
+  background-color: #fff;
 }
 .team-item-image {
 }
@@ -158,6 +166,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
